@@ -1,0 +1,5 @@
+{
+  "name": "Google Services Authorizer",
+  "description": "A one-click application to authorize access to Google Sheets, Google Drive, and Google Apps Script using the Google Identity Services library.",
+  "requestFramePermissions": []
+}
