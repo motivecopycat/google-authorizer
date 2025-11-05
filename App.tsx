@@ -26,7 +26,7 @@ const App: React.FC = () => {
     // This effect runs once to initialize the Google Identity Services client.
     if (window.google?.accounts?.oauth2) {
       const client = window.google.accounts.oauth2.initTokenClient({
-        client_id: GOOGLE_CLIENT_ID,
+        client_id: 270957121219-1ndrd0l18vsil76ju7q1ubbfoodi72qk.apps.googleusercontent.com,
         scope: OAUTH_SCOPES.join(' '),
         callback: handleAuthCallback,
       });
